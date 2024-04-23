@@ -203,6 +203,11 @@ body {
   object-fit: cover;
 }
 
+.pet-card-photo img {
+  padding: 0;
+  margin: 0;
+}
+
 .pet-card-text {
   padding: 18px 16px;
 }
