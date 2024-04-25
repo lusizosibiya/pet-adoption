@@ -177,7 +177,7 @@ body {
 
 .list-of-pets {
   display: grid;
-  grid-template-columns: repeat(autofit, minmax(390px, 1fr, ));
+  grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
   column-gap: 34px;
   row-gap: 16px;
 }
@@ -201,11 +201,6 @@ body {
   height: 100%;
   display: block;
   object-fit: cover;
-}
-
-.pet-card-photo img {
-  padding: 0;
-  margin: 0;
 }
 
 .pet-card-text {
@@ -232,7 +227,6 @@ body {
 }
 
 @media screen and (min-width: 600px) {
-
   .pet-description {
     font-size: 1rem;
   }
